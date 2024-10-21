@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6a0dad; /* Roxo */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Seções */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6a0dad;
+}
+
+section {
+    padding: 40px 0;
+}
+
+/* Projetos */
+#projects .project {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #6a0dad;
+}
+
+#projects .project h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#projects .btn {
+    display: inline-block;
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#projects .btn:hover {
+    background-color: #5a099b;
+}
+
+/* Habilidades */
+ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+ul li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #6a0dad;
+}
+
+/* Contato */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
